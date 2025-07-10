@@ -25,9 +25,12 @@
 .banner-section{
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
+    
     border-radius: 16px;
-    margin: 0 auto;
+    margin: 50px 140px;
     max-width: 1320px;
+    height: 600px;
+
     
     
 }
