@@ -21,15 +21,17 @@
 
 
 
+
 /* banner styles */
-.banner-section{
+.banner-container{
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
+    background-size: cover;
     
     border-radius: 16px;
-    margin: 50px 140px;
-    max-width: 1320px;
-    height: 600px;
+    margin: 50px auto;
+     max-width: 1320px;
+    height: 600px; 
 
     
     
@@ -48,6 +50,7 @@
 .banner-content{
     text-align: center;
     padding: 170px 340px;
+    max-width: 600px;
 }
 /* discount section styles*/
 .discount-section{
