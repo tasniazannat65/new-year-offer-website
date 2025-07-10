@@ -18,15 +18,20 @@
 .text-center{
     text-align: center;
 }
+
+
+
 /* banner styles */
 .banner-section{
-    width: 1300px;
-    height: 600px;
-    margin: 50px 130px;
-    border-radius: 16px;
-    
     background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 0 auto;
+    max-width: 1320px;
+    
+    
 }
+
 .banner-greetings{
     font-size: 32px;
     color: #ffffff;
@@ -43,9 +48,9 @@
 }
 /* discount section styles*/
 .discount-section{
-     width: 800px;
-    height: 600px; 
-    margin: 120px 399px ;
+     max-width: 800px;
+    
+    margin: 0 398px 120px 399px ;
     
     
 }
@@ -64,12 +69,12 @@
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 16px;
+    
     
 }
 .discount-categories{
     font-size: 48px;
     font-weight: bold;
     color: #070211;
-    margin-bottom: 48px;
+    margin-top: 0px;
 }
